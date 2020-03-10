@@ -8,6 +8,7 @@ test('validate the query', (t) => {
 
     t.true(validate(validQuery), 'should return true when valid')
     t.false(validate(invalidQuery), 'should return true when valid')
+    
 
     t.end()
 })
