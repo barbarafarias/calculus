@@ -1,0 +1,28 @@
+{
+  "name": "calculus",
+  "version": "1.0.0",
+  "description": "Calculus API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "DEBUG=api* nodemon",
+    "start": "node server.js",
+    "test": "tape 'test/**/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbarafarias/calculus.git"
+  },
+  "author": "Barbara Farias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barbarafarias/calculus/issues"
+  },
+  "homepage": "https://github.com/barbarafarias/calculus#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "tape": "^4.13.2"
+  }
+}
