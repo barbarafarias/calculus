@@ -6,7 +6,7 @@ $ git clone git@github.com:barbarafarias/calculus.git
 $ cd calculus
 ```
 
-## How to run
+## How to run locally
 
 ### With Docker
 ```sh
@@ -19,4 +19,9 @@ $ Go to http://localhost:3000/calculus?query=Mis4KjktKDEwLzQp
 $ npm install
 $ npm start
 $ Go to http://localhost:3000/calculus?query=Mis4KjktKDEwLzQp
+```
+
+## How to run on Heroku
+```sh
+$ Go to https://barbara-calculus.herokuapp.com/calculus?query=Mis4KjktKDEwLzQp
 ```
