@@ -1,0 +1,15 @@
+version: "3"
+
+networks:
+  back-tier:
+
+services:
+  app:
+    container_name: calculus
+    restart: always
+    build: .
+    command: node server.js
+    ports:
+      - "3000:3000"
+    networks:
+      - back-tier
